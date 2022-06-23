@@ -1,0 +1,296 @@
+.aboutBody{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.aboutBody::-webkit-scrollbar {
+    display: none;
+}
+.main{
+    position: absolute;
+    width: 357.5px;
+    height: 223.61px;
+    left: 580px;
+    top: 111.46px;
+
+    background: rgba(255, 255, 255, 0.69);
+    border-radius: 32.6233px;
+}
+.mainLogo{
+    position: relative;
+    width: 108.74px;
+    height: 108.74px;
+    left: 122.34px;
+    top: 0px;
+}
+.mainTitle{
+    position: absolute;
+    width: 234.48px;
+    height: 46.22px;
+    left: 61.17px;
+    top: 108.74px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.1861px;
+    line-height: 41px;
+
+    color: #000000;
+}
+.mainDesc{
+    position: absolute;
+    width: 356.82px;
+    height: 61.17px;
+    left: 0px;
+    top: 154.96px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.9523px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 1.3593px 1.3593px 40.7791px rgba(0, 0, 0, 0.25);
+}
+.tl{
+    position: absolute;
+    width: 377.89px;
+    height: 169.91px;
+    left: 355.71px;
+    top: 353.42px;
+
+    background: rgba(255, 255, 255, 0.69);
+    border-radius: 15.632px;
+}
+.tlLogo{
+    position: absolute;
+    width: 108.74px;
+    height: 108.74px;
+    left: 29.9px;
+    top: 29.23px;
+}
+.tlTitle{
+    position: absolute;
+    width: 193.7px;
+    height: 23.11px;
+    left: 152.24px;
+    top: 29.23px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.3116px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+}
+.tlDesc{
+    position: absolute;
+    width: 193.7px;
+    height: 78.84px;
+    left: 146.8px;
+    top: 59.13px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.2337px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 1.3593px 1.3593px 40.7791px rgba(0, 0, 0, 0.25);
+}
+.tr{
+    position: absolute;
+    width: 377.21px;
+    height: 169.91px;
+    left: 784.57px;
+    top: 353.42px;
+
+    background: rgba(255, 255, 255, 0.69);
+    border-radius: 15.632px;
+}
+.trLogo{
+    position: absolute;
+    width: 108.74px;
+    height: 108.74px;
+    left: 235.52px;
+    top: 29.23px;
+}
+.trTitle{
+    position: absolute;
+    width: 193.7px;
+    height: 23.11px;
+    left: 29.22px;
+    top: 32.62px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.3116px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+}
+.trDesc{
+    position: absolute;
+    width: 193.7px;
+    height: 96.51px;
+    left: 29.22px;
+    top: 62.53px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.2337px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 1.3593px 1.3593px 40.7791px rgba(0, 0, 0, 0.25);
+}
+.bl{
+    position: absolute;
+    width: 377.89px;
+    height: 169.91px;
+    left: 355.71px;
+    top: 540.32px;
+
+    background: rgba(255, 255, 255, 0.69);
+    border-radius: 15.632px;
+}
+.blTitle{
+    position: absolute;
+    width: 193.7px;
+    height: 23.11px;
+    left: 152.24px;
+    top: 27.19px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.3116px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+}
+.blDesc{
+    position: absolute;
+    width: 203.22px;
+    height: 103.31px;
+    left: 142.73px;
+    top: 53.01px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.2337px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 1.3593px 1.3593px 40.7791px rgba(0, 0, 0, 0.25);
+}
+.blLogo{
+    position: absolute;
+    width: 108.74px;
+    height: 108.74px;
+    left: 29.9px;
+    top: 29.23px;
+}
+.br{
+    position: absolute;
+    width: 377.89px;
+    height: 169.91px;
+    left: 784.57px;
+    top: 540.32px;
+
+    background: rgba(255, 255, 255, 0.69);
+    border-radius: 15.632px;
+}
+.brLogo{
+    position: absolute;
+    width: 108.74px;
+    height: 108.74px;
+    left: 235.52px;
+    top: 29.23px;
+}
+.brTitle{
+    position: absolute;
+    width: 193.7px;
+    height: 23.11px;
+    left: 29.23px;
+    top: 30.58px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.3116px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+}
+.brDesc{
+    position: absolute;
+    width: 193.7px;
+    height: 99.91px;
+    left: 29.23px;
+    top: 60.49px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.2337px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 1.3593px 1.3593px 40.7791px rgba(0, 0, 0, 0.25);
+}
+.tlCard{
+    position: absolute;
+    width: 153.6px;
+    height: 154.28px;
+    top:-44.18px;
+    left:-50.29px;
+}
+.trCard {
+    position: absolute;
+    width: 153.6px;
+    height: 154.28px;
+    top: -44.18px;
+    left: 273.58px;
+}
+.blCard {
+    position: absolute;
+    width: 153.6px;
+    height: 153.6px;
+    top: 43.5px;
+    left: -50.97px;
+}
+.brCard{
+    position: absolute;
+    width: 142.37px;
+    height: 141.37px;
+    top: 55.73px;
+    left: 290.89px;
+}

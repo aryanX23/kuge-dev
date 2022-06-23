@@ -1,0 +1,44 @@
+.eventsBody{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.eventsBody::-webkit-scrollbar {
+    display: none;
+}
+.cardBody{
+    position: absolute;
+    width: 923.77px;
+    height: 610.3px;
+    left: 303.89px;
+    top: 80px;
+    padding-bottom: 70px;
+}
+#btnR{
+    position: absolute;
+    width: 48.55px;
+    height: 48.55px;
+    left: 1235px;
+    top: 350.23px;
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#btnL{
+    position: absolute;
+    width: 48.55px;
+    height: 48.55px;
+    left: 235.98px;
+    top: 350.23px;
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

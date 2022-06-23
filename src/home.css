@@ -1,0 +1,166 @@
+.homeBody{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll ;
+    overflow-x:scroll;
+    background: #E7E7E7;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    z-index: -1;
+}
+.homeBody::-webkit-scrollbar {
+    display: none;
+}
+.centerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8.97px;
+    
+    position: absolute;
+    width: 311px;
+    height: 143px;
+    left: 158px;
+    top: 142.13px;
+}
+#ct-heading{
+    width: 182px;
+    height: 19px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.5625px;
+    line-height: 132%;
+
+    letter-spacing: 0.31em;
+
+    color: #262222;
+
+    text-shadow: 1.38021px 1.38021px 34.5052px rgba(0, 0, 0, 0.25);
+}
+#ct-body{
+    width: 310.55px;
+    height: 124.22px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35.8854px;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    text-shadow: 1.38021px 1.38021px 20.7031px rgba(0, 0, 0, 0.34);
+}
+.chessBoys{
+    position: absolute;
+    width: 546.08px;
+    height: 307.1px;
+    left: 769.02px;
+    top: 119.39px;
+    mix-blend-mode: normal;
+}
+.logo1{
+    position: absolute;
+    z-index: -1;
+    left: 150px;
+    top:200px;
+    height:630px;
+}
+.bonsai{
+    position: absolute;
+    width: 875.74px;
+    height: 828.12px;
+    left: 609.3px;
+    top: 0px;
+
+    filter: drop-shadow(0px 2.76042px 2.76042px rgba(0, 0, 0, 0.25));
+}
+.descriptionBox{
+    position: absolute;
+    width: 552px;
+    height: 355px;
+    left: 766px;
+    top: 443.13px;
+    background: rgba(237, 66, 66, 0.79);
+    box-shadow: 1.38021px 1.38021px 41.4062px rgba(0, 0, 0, 0.13);
+    justify-content: center;
+}
+.description{
+    position: absolute;
+    width: 372.66px;
+    height: 169.77px;
+    left:90px;
+    top:68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.1823px;
+    line-height: 23px;
+    color: #000000;
+    text-shadow: 1.38021px 1.38021px 41.4062px rgba(0, 0, 0, 0.25);
+}
+.xbox{
+    position: absolute;
+    right:450px;
+    top: 44.09px;
+    transform: rotate(0.42deg);
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13.65px;
+    justify-content: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 334.7px;
+    height: 44.86px;
+    left: 105px;
+    top: 245px;
+}
+.socialElements{
+    width:50px;
+    height:50px;
+    cursor: pointer;
+}
+.socialElements:hover{
+    opacity: 0.5;
+    transition-duration: 0.2s;
+}
+#yt{
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+}
+#yt:hover {
+    opacity: 0.7;
+    transition-duration: 0.2s;
+}
+.feedback{
+    width: 115.94px;
+    height: 26.91px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.5625px;
+    line-height: 25px;
+    color: #000000;
+}
+.frame{
+    position: absolute;
+    height: 26.91px;
+    width: 123.53px;
+    left:95%;
+    top: 136.64px;
+    text-align: center;
+
+    background: #37CC58;
+    transform: rotate(-90deg);
+}
