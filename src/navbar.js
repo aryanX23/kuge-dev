@@ -25,7 +25,7 @@ export default function Navbar(){
         }))
     }
     function handleSubmit(){
-            fetch('http://localhost:3000/register',{
+            fetch('http://localhost:5000/register',{
                 method: 'post',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({
